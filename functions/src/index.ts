@@ -6,3 +6,7 @@ import * as functions from 'firebase-functions';
 export const helloWorld = functions.https.onRequest((request, response) => {
  response.send("Hello from Firebase!\nMy First Cloud Function :)");
 });
+
+export const test = functions.https.onRequest((request, response) => {
+    response.send("Hello from Firebase Test Function!");
+   });
