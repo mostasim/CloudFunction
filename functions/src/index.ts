@@ -8,5 +8,5 @@ export const helloWorld = functions.https.onRequest((request, response) => {
 });
 
 export const test = functions.https.onRequest((request, response) => {
-    response.send("Hello from Firebase Test Function!");
+    response.send("Hello from Firebase Home Test");
    });
